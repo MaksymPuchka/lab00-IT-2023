@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .white-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: white;
+            z-index: -1;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            height: auto;
+            width: auto;
+            margin-bottom: 20px;
+        }
+
+        .bold {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        p {
+            color: black;
+        }
+    </style>
+    <title>Flowers</title>
+</head>
+<body>
+    <div class="content-container">
+        <div class="white-background"></div>
+
+        <img src="https://ams03pap004files.storage.live.com/y4my18fIP3Z6NGV8ZBpQzHBO-EHCaV_rYRatdGo5ftIsVuczklm7AfokchMLdGWR9MuIUrNbpLzhdgOXrKYn3PyyuPWO1TdKZ0zjdKo_cDd7fuWJ94pQvFiO6TvbJFJulNAWaMHwMLFgUwe8xoKiGMR9kxM8SS5Dvfs2B-yX_7d5ohLxRcF4-tEDYDk5aIhIL3JH7jdyaMqvQzdOcJPHguJOg?encodeFailures=1&width=445&height=458" alt="Your Image">
+    
+        <p class="bold">Location</p>
+        <p>28 Jackson Blvd Ste 1020 Chicago<br>IL 60604-2340</p>
+    
+        <p>Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<p> 
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+    
+        <p class="bold uppercase">FOLLOW US</p>
+    </div>
+</body>
+</html>
